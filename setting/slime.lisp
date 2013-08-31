@@ -1,0 +1,5 @@
+(add-to-list 'load-path "/home/atman/prj/slime/2013-04-05/")
+(setq inferior-lisp-program "sbcl")
+(require 'slime)
+(setq slime-net-coding-system 'utf-8-unix)
+(slime-setup '(slime-repl slime-fancy slime-banner))
