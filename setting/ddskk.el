@@ -1,6 +1,9 @@
 ;;;;; 
 ;;;;; SKK
 ;;;;; 
+;; debian: /usr/share/skk:
+;; /usr/share/skk/SKK-JISYO.L
+(require 'skk-autoloads)
 (setq skk-user-directory "~/Documents/dic")
 (setq skk-large-jisyo "~/Documents/dic/SKK-JISYO.L")
 (setq skk-preload t)
