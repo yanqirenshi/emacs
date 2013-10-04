@@ -16,3 +16,10 @@
 
 
 
+;;
+(setq auto-mode-alist (append '(("\\.pic$" . picture-mode)) auto-mode-alist))
+(setq auto-mode-alist (append '(("\\.ter$" . picture-mode)) auto-mode-alist))
+
+
+
+
