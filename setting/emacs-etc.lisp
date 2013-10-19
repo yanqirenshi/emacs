@@ -22,4 +22,6 @@
 
 
 
+;;
+(set-frame-parameter nil 'alpha 85)
 

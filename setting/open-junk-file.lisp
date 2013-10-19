@@ -1,3 +1,5 @@
+(add-to-list 'load-path "~/prj/open-junk-file/")
+
 ;;;;;
 ;;;;; open-junk-file.el
 ;;;;; http://www.emacswiki.org/emacs/open-junk-file.el
