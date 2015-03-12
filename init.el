@@ -3,31 +3,62 @@
   (setenv "LANG" "ja_JP.UTF-8")
   (setenv "PATH" ""))  ;; ex) /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
   
-;;
-(load "~/prj/emacs/setting/emacs-environment.lisp")
-(load "~/prj/emacs/setting/emacs-etc.lisp")
+;;;
+;;;
+;;;
+(load "~/prj/emacs/src/environment.el")
+(load "~/prj/emacs/src/emacs-etc.el")
 
-;; My Lisp library
-(load "~/prj/emacs/my.lisp")
 
-;; Package は emacs の version 24 以降 
+;;;
+;;; package maneger
+;;;
 (when (>= emacs-major-version 24)
-  (load "~/prj/emacs/setting/package.el"))
+  (load "~/prj/emacs/src/package.el"))
 
 
-;; (load "~/prj/emacs/setting/ddskk.el")
-;; (load "~/prj/emacs/setting/open-junk-file.lisp")
-
-;; emacs の 色設定
+;;;
+;;; emacs の 色設定
+;;;
 (if (>= emacs-major-version 24)
-    (load "~/prj/emacs/setting/color-theme.el")
-    (load "~/prj/emacs/setting/theme.el"))
+    (load "~/prj/emacs/src/color-theme.el")
+    (load "~/prj/emacs/src/theme.el"))
 
-;; w3m
-(load "~/prj/emacs/setting/w3m.el")
 
-;; (load "~/prj/emacs/setting/slime.lisp")
-;; (load "~/prj/emacs/setting/js2-mode.el")
+;;; 
+;;; slime
+;;; 
+;; (load "~/prj/emacs/src/slime.el")
 
-;; (load "~/prj/emacs/setting/tabbar.lisp")
-;; (load "~/prj/emacs/setting/navi2ch.lisp")
+
+;;; 
+;;; open junk file
+;;; 
+;; (load "~/prj/emacs/src/open-junk-file.el")
+
+
+;;; 
+;;; js2-mode
+;;; 
+;; (load "~/prj/emacs/src/js2-mode.el")
+
+
+;;; 
+;;; ddskk
+;;; 
+;; (load "~/prj/emacs/src/ddskk.el")
+
+
+;;; 
+;;; w3m
+;;; 
+;; (load "~/prj/emacs/src/w3m.el")
+;; (load "~/prj/emacs/src/tabbar.el")
+;; (load "~/prj/emacs/src/navi2ch.el")
+
+
+;;;
+;;; Mya Lisp library
+;;;
+(load "~/prj/emacs/my.el")
+

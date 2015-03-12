@@ -1,13 +1,11 @@
-(add-to-list 'load-path "~/prj/slime/2013-04-05/")
-
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; SLIME
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(setq inferior-lisp-program "/usr/local/bin/sbcl")
+(setq inferior-lisp-program "/usr/bin/sbcl")
 (require 'slime)
 (setq slime-net-coding-system 'utf-8-unix)
 (setq slime-lisp-implementations
-      '((sbcl ("/usr/local/bin/sbcl") :coding-system utf-8-unix)))
+      '((sbcl ("/usr/bin/sbcl") :coding-system utf-8-unix)))
 (slime-setup '(slime-repl slime-fancy slime-banner))
 ;; HyperSpecをw3mで見る
 ;; (defadvice common-lisp-hyperspec

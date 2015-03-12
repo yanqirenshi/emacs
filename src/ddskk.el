@@ -1,6 +1,6 @@
-;;;;; 
+;;;;;
 ;;;;; SKK
-;;;;; 
+;;;;;
 ;; debian: /usr/share/skk:
 ;; /usr/share/skk/SKK-JISYO.L
 (require 'skk-autoloads)
@@ -22,9 +22,9 @@
 ;;;; □ 句読点は , . を使う
 (setq skk-kuten-touten-alist
       '(
-	(jp . ("。" . "、" ))
-	(en . ("．" . "，"))
-	))
+        (jp . ("。" . "、" ))
+        (en . ("．" . "，"))
+        ))
 ;;;; □ jp にすると「。、」を使います
 (setq-default skk-kutouten-type 'jp)
 ;;;; □ @で挿入する日付表示を半角に

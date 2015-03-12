@@ -3,7 +3,7 @@
 ;; http://d.hatena.ne.jp/kakurasan/20070625/p1
 (global-set-key "\M-w" 'clipboard-kill-ring-save)  ; クリップボードにコピー
 (global-set-key "\C-w" 'clipboard-kill-region)     ; 切り取ってクリップボードへ
-;clipboard-yank これはなに？
+                                        ;clipboard-yank これはなに？
 
 ;;;
 ;;; change browser

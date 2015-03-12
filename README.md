@@ -1,13 +1,6 @@
-emacs
-=====
+オレオレ emacs 設定です。
 
-My emacs settings
-
-
-
-
-setting
-=====
-Copy init.el to ~/.emacs.d/init.el
-
+```shell
+cp init.el ~/.emacs.d/init.el
+```
 

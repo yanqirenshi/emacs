@@ -2,7 +2,7 @@
 ;;; tab bar mode
 ;;; <ŽQl‚É‚µ‚½url>
 ;;; http://d.hatena.ne.jp/tequilasunset/20110103/p1
-;;; 
+;;;
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'tabbar)
 (tabbar-mode)
