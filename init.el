@@ -33,13 +33,11 @@
   (setenv "PS1" "\\w$ ")
   (setenv "LANG" "ja_JP.UTF-8"))
 
-
 ;;;;;
 ;;;;; emacs の設定あれこれ
 ;;;;;
 (load "~/prj/emacs/src/environment.el")
 ;; (load "~/prj/emacs/src/emacs-etc.el") 廃棄予定。
-
 
 ;;;;;
 ;;;;; 色設定
@@ -86,13 +84,10 @@
 ;;;;;
 ;; (load "~/prj/emacs/src/ddskk.el")
 
-
 ;;;;;
 ;;;;; w3m
 ;;;;;
 ;; (load "~/prj/emacs/src/w3m.el")
-;; (load "~/prj/emacs/src/tabbar.el")
-;; (load "~/prj/emacs/src/navi2ch.el")
 
 ;;;;;
 ;;;;; tabbar
