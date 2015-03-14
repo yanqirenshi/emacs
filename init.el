@@ -59,10 +59,13 @@
 ;;;;;
 ;; (load "~/prj/emacs/src/markdown-mode.el")
 
-;;;
-;;; slime
-;;;
-(defvar *iwo-sblc-path* "/usr/local/bin/sbcl")
+;;;;;
+;;;;; slime
+;;;;;
+;;;;; ex) (defvar *iwo-cl-path* "/usr/local/bin/sbcl")
+;;;;;     (defvar *iwo-slime-path* "~/prj/slime")
+(defvar *iwo-cl-path*    nil)
+(defvar *iwo-slime-path* nil)
 ;; (load "~/prj/emacs/src/slime.el")
 
 ;;;
