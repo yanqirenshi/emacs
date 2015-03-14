@@ -1,11 +1,11 @@
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; SLIME
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(setq inferior-lisp-program "/usr/bin/sbcl")
+(setq inferior-lisp-program *iwo-sblc-path*)
 (require 'slime)
 (setq slime-net-coding-system 'utf-8-unix)
 (setq slime-lisp-implementations
-      '((sbcl ("/usr/bin/sbcl") :coding-system utf-8-unix)))
+      `((sbcl (,*iwo-sblc-path*) :coding-system utf-8-unix)))
 (slime-setup '(slime-repl slime-fancy slime-banner))
 ;; HyperSpecをw3mで見る
 ;; (defadvice common-lisp-hyperspec

@@ -2,6 +2,7 @@
 (menu-bar-mode t)
 (tool-bar-mode -1)
 
+
 ;;;
 ;;(set-language-environment 'Japanese)
 (set-language-environment "UTF-8")
@@ -12,6 +13,7 @@
 (prefer-coding-system 'utf-8)
 (set-default-coding-systems 'utf-8)
 (setq file-name-coding-system 'utf-8)
+
 
 ;;フォントの設定
 ;; (create-fontset-from-fontset-spec
