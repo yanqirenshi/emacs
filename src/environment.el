@@ -35,8 +35,10 @@
 
 
 ;;; 行の折り返し。デフォルトでは折り返す。
-(setq truncate-lines t)
-(setq truncate-partial-width-windows t)
+;;; http://www.emacswiki.org/emacs/TruncateLines
+;;; http://d.hatena.ne.jp/beiz23/20090713/1247476145
+(setq truncate-lines nil)
+(setq truncate-partial-width-windows nil)
 
 
 ;; 大文字小文字の変換を有効にする。
