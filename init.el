@@ -20,9 +20,11 @@
 ;;;;;  2. Mya Lisp library
 ;;;;;
 
+;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;
 ;;;;; 1. Setting Mode
 ;;;;;
+;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; package maneger
 (when (>= emacs-major-version 24)
@@ -36,7 +38,8 @@
 
 ;; emacs の設定あれこれ
 (load "~/prj/emacs/src/environment.el")
-;; (load "~/prj/emacs/src/emacs-etc.el") 廃棄予定。
+(load "~/prj/emacs/src/language.el")   ;; 言語/文字コード
+(load "~/prj/emacs/src/mode-line.el")  ;; mode-line の設定
 
 ;; 色設定
 (load "~/prj/emacs/src/buffer.el")
@@ -86,9 +89,13 @@
 ;; twitter
 ;; (load "~/prj/emacs/src/twittering-mode.el")
 
+;; T-ER Mode
+(load "~/prj/emacs/src/ter-mode.el")
 
 
+;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;
 ;;;;; 2. Mya Lisp library
 ;;;;;
+;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;
 (load "~/prj/emacs/lisp/my.el")
