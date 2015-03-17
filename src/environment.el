@@ -21,24 +21,10 @@
 ;; (set-default-font "fontset-12")
 
 
-
-;;; Show Paren Mode
-(show-paren-mode)                      ;; ShowParenMode   URL : http://www.emacswiki.org/emacs/ShowParenMode
-
-;;; 行間
-(setq-default line-spacing 0)
-
 ;;; モードライン
 (line-number-mode t)                   ;; カーソルがある行の行数を表示
 (column-number-mode t)                 ;; カーソルがある位置の文字数を表示
 (display-time)                         ;; 時刻を表示する。
-
-
-;;; 行の折り返し。デフォルトでは折り返す。
-;;; http://www.emacswiki.org/emacs/TruncateLines
-;;; http://d.hatena.ne.jp/beiz23/20090713/1247476145
-(setq truncate-lines nil)
-(setq truncate-partial-width-windows nil)
 
 
 ;; 大文字小文字の変換を有効にする。

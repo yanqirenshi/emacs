@@ -1,24 +1,27 @@
 ;;;;; Contents
 ;;;;; --------
-;;;;;   package maneger
-;;;;;   環境変数の設定
-;;;;;   emacs の設定あれこれ
-;;;;;   色設定
-;;;;;   フォント設定
-;;;;;   markdown-mode
-;;;;;   slime
-;;;;;   open junk file
-;;;;;   javascript
-;;;;;   ddskk
-;;;;;   w3m
-;;;;;   tabbar
-;;;;;   navi2ch
-;;;;;   twitter
-;;;;;   Mya Lisp library
+;;;;;  1. Setting Mode
+;;;;;     - package maneger
+;;;;;     - 環境変数の設定
+;;;;;     - emacs の設定あれこれ
+;;;;;     - 色設定
+;;;;;     - フォント設定
+;;;;;     - picture-mode
+;;;;;     - org-mode
+;;;;;     - markdown-mode
+;;;;;     - slime
+;;;;;     - open junk file
+;;;;;     - javascript
+;;;;;     - ddskk
+;;;;;     - w3m
+;;;;;     - tabbar
+;;;;;     - navi2ch
+;;;;;     - twitter
+;;;;;  2. Mya Lisp library
 ;;;;;
 
 ;;;;;
-;;;;; Setting Mode
+;;;;; 1. Setting Mode
 ;;;;;
 
 ;; package maneger
@@ -36,6 +39,9 @@
 ;; (load "~/prj/emacs/src/emacs-etc.el") 廃棄予定。
 
 ;; 色設定
+(load "~/prj/emacs/src/buffer.el")
+
+;; 色設定
 (if (>= emacs-major-version 24)
     (load "~/prj/emacs/src/theme.el")
   (load "~/prj/emacs/src/color-theme.el"))
@@ -46,6 +52,9 @@
 
 ;; picture-mode
 (load "~/prj/emacs/src/picture-mode.el")
+
+;; org-mode
+(load "~/prj/emacs/src/org-mode.el")
 
 ;; markdown-mode
 ;; (load "~/prj/emacs/src/markdown-mode.el")
@@ -80,6 +89,6 @@
 
 
 ;;;;;
-;;;;; Mya Lisp library
+;;;;; 2. Mya Lisp library
 ;;;;;
 (load "~/prj/emacs/lisp/my.el")
