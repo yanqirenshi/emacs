@@ -21,6 +21,13 @@
 (global-set-key "\M-w" 'clipboard-kill-ring-save)  ; クリップボードにコピー
 (global-set-key "\C-w" 'clipboard-kill-region)     ; 切り取ってクリップボードへ
 
+
+;;;
+;;; ビープ音を消す。
+;;; 参照: http://qiita.com/ongaeshi/items/696407fc6c42072add54
+(setq ring-bell-function 'ignore)
+
+
 ;;;
 ;;; change browser
 ;;; <url>
