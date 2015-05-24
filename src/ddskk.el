@@ -27,7 +27,7 @@
 ;;;
 ;;; □ "「"を入力したら"」"も自動で挿入
 ;;;
-(setq skk-auto-insert-paren t)
+;; (setq skk-auto-insert-paren t)
 
 ;;;
 ;;; □ 句読点は , . を使う

@@ -60,7 +60,7 @@
 (load "~/prj/emacs/src/org-mode.el")
 
 ;; markdown-mode
-;; (load "~/prj/emacs/src/markdown-mode.el")
+(load "~/prj/emacs/src/markdown-mode.el")
 
 ;; slime
 (defvar *iwo-cl-path*    nil) ;; ex) (defvar *iwo-cl-path* "/usr/local/bin/sbcl")
@@ -68,26 +68,26 @@
 ;; (load "~/prj/emacs/src/slime.el")
 
 ;; open junk file
-;; (load "~/prj/emacs/src/open-junk-file.el")
+(load "~/prj/emacs/src/open-junk-file.el")
 
 ;; javascript
-;;(load "~/prj/emacs/src/js2-mode.el") ;; js2-mode
-;;(load "~/prj/emacs/src/web-mode.el") ;; web-mode
+(load "~/prj/emacs/src/js2-mode.el") ;; js2-mode
+(load "~/prj/emacs/src/web-mode.el") ;; web-mode
 
 ;; ddskk
-;; (load "~/prj/emacs/src/ddskk.el")
+(load "~/prj/emacs/src/ddskk.el")
 
 ;; w3m
 ;; (load "~/prj/emacs/src/w3m.el")
 
 ;; tabbar
-;; (load "~/prj/emacs/src/tabbar.el")
+(load "~/prj/emacs/src/tabbar.el")
 
 ;; navi2ch
 ;; (load "~/prj/emacs/src/navi2ch.el")
 
 ;; twitter
-;; (load "~/prj/emacs/src/twittering-mode.el")
+(load "~/prj/emacs/src/twittering-mode.el")
 
 ;; T-ER Mode
 (load "~/prj/emacs/src/ter-mode.el")
