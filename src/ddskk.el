@@ -2,7 +2,7 @@
 ;;;;; SKK
 ;;;;;
 
-(require 'skk-autoloads)
+(require 'skk)
 
 ;;;
 ;;; 辞書設定。。。どうしよう。。。

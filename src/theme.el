@@ -1,6 +1,4 @@
-(if (eq window-system 'ns)
-    (load-theme 'tango)
-    (load-theme 'tango-dark))
+(load-theme 'tango-dark)
 
 ;; (deftheme mac "Yanqirenshi Mac color theme")
 
