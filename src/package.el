@@ -27,6 +27,7 @@
     git-gutter
     markdown-mode
     twittering-mode
+    flycheck
     web-mode
     js2-mode
     tabbar))
