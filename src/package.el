@@ -24,12 +24,12 @@
     open-junk-file
     ddskk
     magit
+    git-gutter
     markdown-mode
     twittering-mode
     web-mode
     js2-mode
-    tabbar
-    ))
+    tabbar))
 
 ;; my/favorite-packagesからインストールしていないパッケージをインストール
 (dolist (package my-favorite-packages)
