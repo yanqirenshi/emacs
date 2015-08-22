@@ -20,17 +20,17 @@
 
 ;;; インストールするパッケージ
 (defvar my-favorite-packages
-  '(exec-path-from-shell
-    open-junk-file
+  '(open-junk-file
     ddskk
-    magit
+    ;; magit
     git-gutter
     markdown-mode
     twittering-mode
     flycheck
     web-mode
     js2-mode
-    tabbar))
+    tabbar
+    exec-path-from-shell))
 
 ;; my/favorite-packagesからインストールしていないパッケージをインストール
 (dolist (package my-favorite-packages)
