@@ -19,9 +19,9 @@
 (setq truncate-partial-width-windows nil)
 
 
-;;;
-;;; Auto Fill Mode
-;;; <url>
-;;;  http://www.emacswiki.org/emacs/AutoFillMode
-;;;
-(add-hook 'text-mode-hook (auto-fill-mode -1))
+;; ;;;
+;; ;;; Auto Fill Mode
+;; ;;; <url>
+;; ;;;  http://www.emacswiki.org/emacs/AutoFillMode
+;; ;;;
+;; (add-hook 'text-mode-hook (auto-fill-mode -1))

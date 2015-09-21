@@ -22,7 +22,7 @@
 (setq inferior-lisp-program *iwo-cl-path*)
 (add-to-list 'load-path *iwo-slime-path*)
 (require 'slime)
-(slime-setup '(slime-repl slime-fancy slime-banner slime-indentation slime-repl-ansi-color))
+(slime-setup '(slime-repl slime-fancy slime-banner slime-indentation))
 (add-hook 'slime-repl-mode-hook (lambda () (slime-repl-ansi-on)))
 
 

@@ -41,7 +41,7 @@
   (setenv "PS1" "\\w$ ")
   (setenv "LANG" "ja_JP.UTF-8"))
 
-;; 色設定
+;; buffer 設定
 (load "~/prj/emacs/src/buffer.el")
 
 ;; 色設定
@@ -65,7 +65,7 @@
 ;; slime
 (add-to-list 'load-path (expand-file-name "~/prj/slime-repl-ansi-color"))
 (defvar *iwo-cl-path* "ros run -R")
-(defvar *iwo-slime-path* "/Users/yanqirenshi/prj/slime")
+(defvar *iwo-slime-path* "~/prj/slime")
 (load "~/prj/emacs/src/slime.el")
 
 ;; open junk file
@@ -73,19 +73,13 @@
 
 ;; javascript
 (load "~/prj/emacs/src/js2-mode.el") ;; js2-mode
-(load "~/prj/emacs/src/web-mode.el") ;; web-mode
+;; ;; (load "~/prj/emacs/src/web-mode.el") ;; web-mode
 
 ;; ddskk
 (load "~/prj/emacs/src/ddskk.el")
 
 ;; eww
 (load "~/prj/emacs/src/eww.el")
-
-;; tabbar
-;; (load "~/prj/emacs/src/tabbar.el")
-
-;; navi2ch
-;; (load "~/prj/emacs/src/navi2ch.el")
 
 ;; twitter
 (load "~/prj/emacs/src/twittering-mode.el")
