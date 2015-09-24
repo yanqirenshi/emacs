@@ -97,3 +97,4 @@
 ;;;;;
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;
 (load "~/prj/emacs/lisp/my.el")
+(load "~/prj/emacs/lisp/date.el")
