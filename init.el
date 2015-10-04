@@ -32,8 +32,7 @@
 (load "~/prj/emacs/src/mode-line.el")  ;; mode-line の設定
 
 ;; package maneger
-(when (>= emacs-major-version 24)
-  (load "~/prj/emacs/src/package.el"))
+(load "~/prj/emacs/src/package.el")
 
 ;; 環境変数の設定
 (load "~/prj/emacs/src/path.el") ;; OSの環境変数の引き継ぎ
@@ -45,9 +44,7 @@
 (load "~/prj/emacs/src/buffer.el")
 
 ;; 色設定
-(if (>= emacs-major-version 24)
-    (load "~/prj/emacs/src/theme.el")
-  (load "~/prj/emacs/src/color-theme.el"))
+(load "~/prj/emacs/src/theme.el")
 
 ;; フォント設定
 (when (eq window-system 'ns)
