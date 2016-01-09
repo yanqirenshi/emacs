@@ -10,16 +10,18 @@
 ;;;;; flycheck
 ;;;;;
 ;; npm install -g jsxhint
-(flycheck-def-executable-var 'jsxhint-checker "jsxhint")
-
-(flycheck-define-command-checker 'jsxhint-checker
-   :command `("jsxhint" "--config" ,(expand-file-name "~/.emacs.d/.jshintrc") source)
-   :error-patterns '((error line-start (1+ nonl) ": line " line ", col " column ", " (message) line-end))
-   :modes '(web-mode))
-
-(add-hook 'web-mode-hook
-             (lambda ()
-               (when (equal web-mode-content-type "jsx")
-                 ;; enable flycheck
-                 (flycheck-select-checker 'jsxhint-checker)
-                 (flycheck-mode))))
+(defun error-test ()
+  (condition-case error-var
+      (progn
+        (flycheck-def-executable-var 'jsxhint-checker "jsxhint")
+        (flycheck-define-command-checker 'jsxhint-checker
+          :command `("jsxhint" "--config" ,(expand-file-name "~/prj/emacs/.jshintrc") source)
+          :error-patterns '((error line-start (1+ nonl) ": line " line ", col " column ", " (message) line-end))
+          :modes '(web-mode))
+        (add-hook 'web-mode-hook
+                  (lambda ()
+                    (when (equal web-mode-content-type "jsx")
+                      ;; enable flycheck
+                      (flycheck-select-checker 'jsxhint-checker)
+                      (flycheck-mode)))))
+    (message "%s" error-var)))

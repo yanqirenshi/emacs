@@ -72,7 +72,7 @@
 
 ;; javascript
 (load "~/prj/emacs/src/js2-mode.el") ;; js2-mode
-;; ;; (load "~/prj/emacs/src/web-mode.el") ;; web-mode
+(load "~/prj/emacs/src/web-mode.el") ;; web-mode
 
 ;; ddskk
 (load "~/prj/emacs/src/ddskk.el")
