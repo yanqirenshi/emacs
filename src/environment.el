@@ -6,32 +6,47 @@
 (setq-default tab-width 4 indent-tabs-mode nil)
 
 ;;;
-;;; window
+;;; menu-bar
 ;;;
 (menu-bar-mode t)
-(tool-bar-mode 0)
+
+;;;
+;;; tool-bar
+;;;
+(when window-system
+  (tool-bar-mode 0))
+
+;;;
+;;; title-bar
+;;;
 (setq frame-title-format (format "emacs@%s : %%f" (system-name))) ;;; タイトルバーにファイル名を表示する
-;; (set-frame-parameter nil 'alpha 90) ;; 背景半透明
 
+;;;
+;;; 背景半透明
+;;;
+;; (set-frame-parameter nil 'alpha 90)
 
-;; 大文字小文字の変換を有効にする。
+;;;
+;;; 大文字小文字の変換を有効にする。
+;;;
 (put 'upcase-region  'disabled nil)
 (put 'downcase-region 'disabled nil)
 
+;;;
 ;;; 最近使ったファイルを保存(M-x recentf-open-filesで開く)
+;;;
 (recentf-mode)
 
 ;;;
-;;; http://d.hatena.ne.jp/kakurasan/20070625/p1
+;;; クリップボード: http://d.hatena.ne.jp/kakurasan/20070625/p1
+;;;
 (global-set-key "\M-w" 'clipboard-kill-ring-save)  ; クリップボードにコピー
 (global-set-key "\C-w" 'clipboard-kill-region)     ; 切り取ってクリップボードへ
 
-
 ;;;
-;;; ビープ音を消す。
-;;; 参照: http://qiita.com/ongaeshi/items/696407fc6c42072add54
+;;; ビープ音: http://qiita.com/ongaeshi/items/696407fc6c42072add54
+;;;
 (setq ring-bell-function 'ignore)
-
 
 ;;;
 ;;; change browser
