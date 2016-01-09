@@ -13,6 +13,11 @@
 
 
 ;;;;;
+;;;;; mode list
+;;;;;
+(defvar *slime-modes* '(slime-repl slime-fancy slime-banner slime-indentation))
+
+;;;;;
 ;;;;; slime は Githubのものを利用することを基本とる。
 ;;;;; <git>
 ;;;;;  https://github.com/slime/slime
@@ -22,9 +27,17 @@
 (setq inferior-lisp-program *iwo-cl-path*)
 (add-to-list 'load-path *iwo-slime-path*)
 (require 'slime)
-(slime-setup '(slime-repl slime-fancy slime-banner slime-indentation))
-(add-hook 'slime-repl-mode-hook (lambda () (slime-repl-ansi-on)))
+(slime-setup *slime-modes*)
 
+;;;;;
+;;;;; slime-repl-ansi-color
+;;;;;
+(let ((path "~/prj/slime-repl-ansi-color/"))
+  (when (directory-exist-p path)
+    (add-to-list 'load-path path)
+    (setq *slime-modes* (append *slime-modes* '(slime-repl-ansi-color)))
+    (slime-setup *slime-modes*)
+    (add-hook 'slime-repl-mode-hook (lambda () (slime-repl-ansi-on)))))
 
 ;;;;;
 ;;;;; HyperSpecをw3mで見る
