@@ -12,16 +12,3 @@
     (delete-trailing-whitespace)
     (save-buffer)
     (kill-buffer)))
-
-
-;;;;;
-;;;;; root 権限でファイルを開き直す
-;;;;; 参照: http://qiita.com/k_ui/items/d9e03ea9523036970519
-;;;;;
-(defun reopen-with-sudo ()
-  "Reopen current buffer-file with sudo using tramp."
-  (interactive)
-  (let ((file-name (buffer-file-name)))
-    (if file-name
-        (find-alternate-file (concat "/sudo::" file-name))
-      (error "Cannot get a file name"))))

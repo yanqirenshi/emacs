@@ -20,6 +20,8 @@
 ;;;;;  2. Mya Lisp library
 ;;;;;
 
+(load "~/prj/emacs/lisp/dir-and-file.el")
+
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;
 ;;;;; 1. Setting Mode
