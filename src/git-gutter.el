@@ -1,6 +1,3 @@
-;;;;;
-;;;;; git-gutter
-;;;;;
 (require 'git-gutter)
 (global-git-gutter-mode +1)
 (setq git-gutter:added-sign "++")

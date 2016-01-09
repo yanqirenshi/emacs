@@ -16,4 +16,4 @@
 (add-hook 'markdown-mode-hook
           (lambda () (auto-fill-mode -1)))
 
-
+(add-hook 'markdown-mode-hook 'turn-on-orgtbl)
