@@ -22,7 +22,7 @@
 (defvar my-favorite-packages
   '(open-junk-file
     ddskk
-    ;; magit
+    magit
     git-gutter
     markdown-mode
     twittering-mode
