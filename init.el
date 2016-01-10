@@ -34,7 +34,8 @@
 (load "~/prj/emacs/src/mode-line.el")  ;; mode-line の設定
 
 ;; package maneger
-(load "~/prj/emacs/src/package.el")
+;; (load "~/prj/emacs/src/package.el")
+(load "~/prj/emacs/src/el-get.el")
 
 ;; 環境変数の設定
 (load "~/prj/emacs/src/path.el") ;; OSの環境変数の引き継ぎ
