@@ -57,4 +57,3 @@
 (setq face-font-rescale-alist
       ;;        '((".*Hiragino_Mincho_pro.*" . 1.2)))
       '((".*Hiragino_Kaku_Gothic_ProN.*" . 1.2)));; Mac用フォント設定
-

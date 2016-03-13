@@ -5,7 +5,7 @@
 (require 'skk)
 
 ;;;
-;;; «‘İ’èBBB‚Ç‚¤‚µ‚æ‚¤BBB
+;;; è¾æ›¸è¨­å®šã€‚ã€‚ã€‚ã©ã†ã—ã‚ˆã†ã€‚ã€‚ã€‚
 ;;;
 ;; (setq skk-user-directory "~/Documents/dic")
 ;; (setq skk-large-jisyo "~/Documents/dic/SKK-JISYO.L")
@@ -16,7 +16,7 @@
 (global-set-key "\C-xt" 'skk-tutorial)
 
 ;;;
-;;; ‰½‚Ì‚à‚ÌH
+;;; ä½•ã®ã‚‚ã®ï¼Ÿ
 ;;;
 ;; (autoload 'skk-mode "skk" nil xt)
 ;; (autoload 'skk-tutorial "skk-tut" nil t)
@@ -25,34 +25,34 @@
 ;; (autoload 'skk-diff "skk-tools" nil t)
 
 ;;;
-;;;   "u"‚ğ“ü—Í‚µ‚½‚ç"v"‚à©“®‚Å‘}“ü
+;;; â–¡ "ã€Œ"ã‚’å…¥åŠ›ã—ãŸã‚‰"ã€"ã‚‚è‡ªå‹•ã§æŒ¿å…¥
 ;;;
 ;; (setq skk-auto-insert-paren t)
 
 ;;;
-;;;   ‹å“Ç“_‚Í , . ‚ğg‚¤
+;;; â–¡ å¥èª­ç‚¹ã¯ , . ã‚’ä½¿ã†
 ;;;
 (setq skk-kuten-touten-alist
-      '((jp . ("B" . "A" ))
-        (en . ("D" . "C"))))
+      '((jp . ("ã€‚" . "ã€" ))
+        (en . ("ï¼" . "ï¼Œ"))))
 
 ;;;
-;;;   jp ‚É‚·‚é‚ÆuBAv‚ğg‚¢‚Ü‚·
+;;; â–¡ jp ã«ã™ã‚‹ã¨ã€Œã€‚ã€ã€ã‚’ä½¿ã„ã¾ã™
 ;;;
 (setq-default skk-kutouten-type 'jp)
 
 ;;;
-;;;   @‚Å‘}“ü‚·‚é“ú•t•\¦‚ğ”¼Šp‚É
+;;; â–¡ @ã§æŒ¿å…¥ã™ã‚‹æ—¥ä»˜è¡¨ç¤ºã‚’åŠè§’ã«
 ;;;
 (setq skk-number-style nil)
 
 ;;;
-;;;   •ÏŠ·‚Ì‚Æ‚«Enter‚ğ‰Ÿ‚µ‚Ä‚àŠm’è‚Ì‚İ‚Å‰üs‚µ‚È‚¢B
+;;; â–¡ å¤‰æ›ã®ã¨ãEnterã‚’æŠ¼ã—ã¦ã‚‚ç¢ºå®šã®ã¿ã§æ”¹è¡Œã—ãªã„ã€‚
 ;;;
 (setq skk-egg-like-newline t)
 
 ;;;
-;;; ƒCƒ“ƒNƒŠƒƒ“ƒ^ƒ‹ƒT[ƒ`‚Å“ú–{Œê
+;;; ã‚¤ãƒ³ã‚¯ãƒªãƒ¡ãƒ³ã‚¿ãƒ«ã‚µãƒ¼ãƒã§æ—¥æœ¬èª
 ;;;
 (add-hook 'isearch-mode-hook
           (function (lambda ()
@@ -63,4 +63,3 @@
                       (and (boundp 'skk-mode) skk-mode
                            (skk-isearch-mode-cleanup)
                            (skk-set-cursor-color-properly)))))
-

@@ -1,3 +1,7 @@
+(add-to-list 'load-path (expand-file-name "~/prj/slime-repl-ansi-color"))
+(defvar *iwo-slime-path* "~/prj/slime")
+(defvar *iwo-cl-path* "ros run -R")
+
 ;;;;;
 ;;;;; check input variable
 ;;;;;
