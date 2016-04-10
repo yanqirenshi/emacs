@@ -1,5 +1,3 @@
-(add-to-list 'load-path (expand-file-name "~/prj/slime-repl-ansi-color"))
-(defvar *iwo-slime-path* "~/prj/slime")
 (defvar *iwo-cl-path* "ros run -R")
 
 ;;;;;
@@ -9,11 +7,6 @@
 (when (or (not (boundp '*iwo-cl-path*))
           (null *iwo-cl-path*))
   (error "Common Lisp実行モジュールの場所が指定されていません。 *iwo-cl-path* "))
-
-;; *iwo-slime-path*
-(when (or (not (boundp '*iwo-slime-path*))
-          (null *iwo-slime-path*))
-  (error "slimeの場所が指定されていません。 *iwo-slime-path*"))
 
 
 ;;;;;
@@ -29,14 +22,14 @@
 ;;;;;  https://common-lisp.net/project/slime/doc/html/Installation.html#Installation
 ;;;;;
 (setq inferior-lisp-program *iwo-cl-path*)
-(add-to-list 'load-path *iwo-slime-path*)
+(add-to-list 'load-path "~/.emacs.d/dist/slime/")
 (require 'slime)
 (slime-setup *slime-modes*)
 
 ;;;;;
 ;;;;; slime-repl-ansi-color
 ;;;;;
-(let ((path "~/prj/slime-repl-ansi-color/"))
+(let ((path "~/.emacs.d/dist/slime-repl-ansi-color/"))
   (when (directory-exist-p path)
     (add-to-list 'load-path path)
     (setq *slime-modes* (append *slime-modes* '(slime-repl-ansi-color)))

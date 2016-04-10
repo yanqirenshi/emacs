@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/prj/el-get")
+(add-to-list 'load-path "~/.emacs.d/dist/el-get")
 (require 'el-get)
 (setq el-get-dir "~/.emacs.d/el-get")
 
@@ -6,10 +6,10 @@
 (el-get-bundle ddskk)
 (el-get-bundle markdown-mode)
 (el-get-bundle twittering-mode)
-;; (el-get-bundle flycheck)
+(el-get-bundle flycheck)
 (el-get-bundle web-mode)
 (el-get-bundle js2-mode)
 (el-get-bundle tabbar)
 (el-get-bundle exec-path-from-shell)
 (el-get-bundle git-gutter)
-;; (el-get-bundle magit)
+(el-get-bundle magit)
