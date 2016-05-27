@@ -18,21 +18,21 @@
 ;;; パッケージ情報の更新
 ;; (package-refresh-contents)
 
-;;; インストールするパッケージ
-(defvar my-favorite-packages
-  '(open-junk-file
-    ddskk
-    magit
-    git-gutter
-    markdown-mode
-    twittering-mode
-    flycheck
-    web-mode
-    js2-mode
-    tabbar
-    exec-path-from-shell))
+;; ;;; インストールするパッケージ
+;; (defvar my-favorite-packages
+;;   '(open-junk-file
+;;     ddskk
+;;     magit
+;;     git-gutter
+;;     markdown-mode
+;;     twittering-mode
+;;     flycheck
+;;     web-mode
+;;     js2-mode
+;;     tabbar
+;;     exec-path-from-shell))
 
-;; my/favorite-packagesからインストールしていないパッケージをインストール
-(dolist (package my-favorite-packages)
-  (unless (package-installed-p package)
-    (package-install package)))
+;; ;; my/favorite-packagesからインストールしていないパッケージをインストール
+;; (dolist (package my-favorite-packages)
+;;   (unless (package-installed-p package)
+;;     (package-install package)))
