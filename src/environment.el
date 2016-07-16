@@ -1,6 +1,13 @@
 (setq inhibit-startup-message t)
 
 ;;;
+;;; default-directory
+;;;   http://qiita.com/t2psyto/items/05776f010792ba967152
+;;;
+(setq default-directory "~/") 
+(setq command-line-default-directory "~/")
+
+;;;
 ;;; indent
 ;;;
 (setq-default tab-width 4 indent-tabs-mode nil)

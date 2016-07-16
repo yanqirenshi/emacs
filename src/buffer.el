@@ -14,14 +14,12 @@
 ;;; 行の折り返し。デフォルトでは折り返す。
 ;;; http://www.emacswiki.org/emacs/TruncateLines
 ;;; http://d.hatena.ne.jp/beiz23/20090713/1247476145
+(set-default 'truncate-lines t)
+(setq truncate-partial-width-windows t)
+
 ;;;
-(setq truncate-lines nil)
-(setq truncate-partial-width-windows nil)
-
-
-;; ;;;
-;; ;;; Auto Fill Mode
-;; ;;; <url>
-;; ;;;  http://www.emacswiki.org/emacs/AutoFillMode
-;; ;;;
-;; (add-hook 'text-mode-hook (auto-fill-mode -1))
+;;; Auto Fill Mode
+;;; <url>
+;;;  http://www.emacswiki.org/emacs/AutoFillMode
+;;;
+(set-default 'auto-fill-mode nil)
