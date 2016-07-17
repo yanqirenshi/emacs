@@ -43,4 +43,4 @@
 (load "~/.emacs.d/dist/emacs/src/git-gutter.el")        ;; git-gutter
 
 (load "~/.emacs.d/dist/emacs/src/slime.el")             ;; slime
-
+(load "~/.emacs.d/dist/emacs/src/hatena-blog-mode.el")  ;; hatena-blog-mode

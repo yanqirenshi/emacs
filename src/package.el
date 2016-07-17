@@ -33,3 +33,4 @@
 (package-install! 'tabbar)
 (package-install! 'exec-path-from-shell)
 (package-install! 'open-junk-file)
+(package-install! 'request)
