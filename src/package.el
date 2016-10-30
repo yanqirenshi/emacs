@@ -10,7 +10,10 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/dist/package.el")
 
 ;;; add other package melpa
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(add-to-list 'package-archives
+             '("marmalade" . "http://marmalade-repo.org/packages/"))
 
 ;;; 初期化
 (package-initialize)
@@ -25,6 +28,7 @@
 (package-install! 'ddskk)
 (package-install! 'magit)
 (package-install! 'git-gutter)
+(package-install! 'org)
 (package-install! 'markdown-mode)
 (package-install! 'twittering-mode)
 (package-install! 'flycheck)
@@ -34,3 +38,5 @@
 (package-install! 'exec-path-from-shell)
 (package-install! 'open-junk-file)
 (package-install! 'request)
+
+(package-install! 'slime-js)
