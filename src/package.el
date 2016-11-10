@@ -1,3 +1,4 @@
+(print "start package")
 ;; 必要であればプロキシの設定
 ;;(setq url-proxy-services '(("http" . "999.999.999.999:8080")))
 
@@ -25,6 +26,7 @@
    (unless (package-installed-p package-symbol)
     (package-install package-symbol)))
 
+(package-install! 'restart-emacs)
 (package-install! 'ddskk)
 (package-install! 'magit)
 (package-install! 'git-gutter)
@@ -39,4 +41,5 @@
 (package-install! 'open-junk-file)
 (package-install! 'request)
 
-(package-install! 'slime-js)
+;; (package-install! 'slime-js)
+(print "end package")
