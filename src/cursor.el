@@ -15,6 +15,7 @@
 
 (setq hl-line-face 'hlline-face)
 
-(setq hl-line-face 'underline)
+;; カーソル行に下線を表示する。
+;; (setq hl-line-face 'underline)
 
 (global-hl-line-mode)
