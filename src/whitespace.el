@@ -2,15 +2,15 @@
 
 ;; 空白
 (set-face-foreground 'whitespace-space nil)
-(set-face-background 'whitespace-space "gray33")
+(set-face-background 'whitespace-space "#D3D3D3") ;gray33
 ;; ファイル先頭と末尾の空行
-(set-face-background 'whitespace-empty "gray33")
+(set-face-background 'whitespace-empty "#D3D3D3") ;gray33
 ;; タブ
 (set-face-foreground 'whitespace-tab nil)
-(set-face-background 'whitespace-tab "gray44")
+(set-face-background 'whitespace-tab "#D3D3D3")
 ;; ???
-(set-face-background 'whitespace-trailing "gray33")
-(set-face-background 'whitespace-hspace "gray33")
+(set-face-background 'whitespace-trailing "#D3D3D3")
+(set-face-background 'whitespace-hspace "#D3D3D3")
 
 (setq whitespace-style '(face           ; faceで可視化
                          trailing       ; 行末
