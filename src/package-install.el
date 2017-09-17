@@ -1,0 +1,23 @@
+(print "start package")
+
+(defun package-install! (package-symbol)
+   (unless (package-installed-p package-symbol)
+    (package-install package-symbol)))
+
+(package-install! 'restart-emacs)
+(package-install! 'ddskk)
+(package-install! 'magit)
+(package-install! 'git-gutter)
+(package-install! 'org)
+(package-install! 'markdown-mode)
+(package-install! 'twittering-mode)
+(package-install! 'flycheck)
+(package-install! 'web-mode)
+(package-install! 'js2-mode)
+(package-install! 'tabbar)
+(package-install! 'exec-path-from-shell)
+(package-install! 'open-junk-file)
+(package-install! 'request)
+
+;; (package-install! 'slime-js)
+(print "end package")
