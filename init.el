@@ -31,6 +31,7 @@
 (load "~/.emacs.d/dist/emacs/src/buffer.el")            ;; buffer 設定
 (load "~/.emacs.d/dist/emacs/src/whitespace.el")        ;; whitespace 設定
 (load "~/.emacs.d/dist/emacs/src/package.el")           ;; package maneger
+(load "~/.emacs.d/dist/emacs/src/package-install.el")   ;; install packages
 (load "~/.emacs.d/dist/emacs/src/path.el")              ;; 環境変数の設定(OSの環境変数の引き継ぎ)
 (load "~/.emacs.d/dist/emacs/src/markdown-mode.el")     ;; markdown-mode
 (load "~/.emacs.d/dist/emacs/src/open-junk-file.el")    ;; open junk file
