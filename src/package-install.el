@@ -18,6 +18,7 @@
 (package-install! 'exec-path-from-shell)
 (package-install! 'open-junk-file)
 (package-install! 'request)
+(package-install! 's)
 
 ;; (package-install! 'slime-js)
 (print "end package")
