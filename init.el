@@ -36,6 +36,7 @@
 (load "~/.emacs.d/dist/emacs/src/markdown-mode.el")      ;; markdown-mode
 (load "~/.emacs.d/dist/emacs/src/open-junk-file.el")     ;; open junk file
 (load "~/.emacs.d/dist/emacs/src/ddskk.el")              ;; ddskk
+(load "~/.emacs.d/dist/emacs/src/auto-complete.el")      ;; auto-complete
 (load "~/.emacs.d/dist/emacs/src/eww.el")                ;; eww
 (load "~/.emacs.d/dist/emacs/src/js2-mode.el")           ;; js2-mode
 (load "~/.emacs.d/dist/emacs/src/web-mode.el")           ;; web-mode
