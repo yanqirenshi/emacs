@@ -1,5 +1,5 @@
 ;;;;;
-;;;;;
+;;;;; コード整形するやつ。たぶん。
 ;;;;;
 (fset 'my-fit-program-source-file
       [?f ?\C-  escape ?> ?\M-x ?i ?n ?d ?e tab ?- ?r ?e ?g tab return ?\C-x ?\C-s ?\C-x ?k return ?f ?\C-  escape ?> ?\M-x ?u ?n ?t tab return ?\C-x ?\C-s ?\C-x ?k return ?f ?\C-  escape ?> ?\M-x ?d ?e ?l ?e tab ?t ?r tab return ?\C-x ?\C-s ?\C-x ?k return ?\C-n])
@@ -12,3 +12,10 @@
     (delete-trailing-whitespace)
     (save-buffer)
     (kill-buffer)))
+
+;;;;;
+;;;;; パッケージのインストール用
+;;;;;
+(defun package-install! (package-symbol)
+   (unless (package-installed-p package-symbol)
+    (package-install package-symbol)))

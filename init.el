@@ -9,7 +9,6 @@
 ;;;;; 1. Mya Lisp library
 ;;;;;
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 (load "~/.emacs.d/dist/emacs/lisp/my.el")
 (load "~/.emacs.d/dist/emacs/lisp/date.el")
 (load "~/.emacs.d/dist/emacs/lisp/dir-and-file.el")
@@ -20,7 +19,6 @@
 ;;;;; 2. Setting Mode
 ;;;;;
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 (load "~/.emacs.d/dist/emacs/src/language.el")           ;; 言語/文字コード
 (load "~/.emacs.d/dist/emacs/src/environment.el")        ;; emacs の設定あれこれ
 (load "~/.emacs.d/dist/emacs/src/cursor.el")             ;; cursor の設定あれこれ
@@ -44,5 +42,18 @@
 (load "~/.emacs.d/dist/emacs/src/ter-mode.el")           ;; T-ER Mode
 (load "~/.emacs.d/dist/emacs/src/git-gutter.el")         ;; git-gutter
 
-(load "~/.emacs.d/dist/emacs/src/slime.el")              ;; slime
+;;;
+;;; blog
+;;;
 (load "~/.emacs.d/dist/emacs/src/hatena-blog-writer.el") ;; hatena-blog-mode
+
+;;;
+;;; lisp
+;;;
+(load "~/.emacs.d/dist/emacs/src/slime.el")              ;; slime
+
+;;;
+;;; ruby
+;;;
+(load "~/.emacs.d/dist/emacs/src/ruby-package-install.el")
+(load "~/.emacs.d/dist/emacs/src/ruby.el")
