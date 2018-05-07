@@ -1,12 +1,12 @@
-(defvar *iwo-cl-path* "ros run -R")
+(defvar *yanqirenshi-cl-path* "ros run -- --dynamic-space-size 3072")
 
 ;;;;;
 ;;;;; check input variable
 ;;;;;
-;; *iwo-cl-path*
-(when (or (not (boundp '*iwo-cl-path*))
-          (null *iwo-cl-path*))
-  (error "Common Lisp実行モジュールの場所が指定されていません。 *iwo-cl-path* "))
+;; *yanqirenshi-cl-path*
+(when (or (not (boundp '*yanqirenshi-cl-path*))
+          (null *yanqirenshi-cl-path*))
+  (error "Common Lisp実行モジュールの場所が指定されていません。 *yanqirenshi-cl-path* "))
 
 
 ;;;;;
@@ -21,7 +21,7 @@
 ;;;;; <参考>
 ;;;;;  https://common-lisp.net/project/slime/doc/html/Installation.html#Installation
 ;;;;;
-(setq inferior-lisp-program *iwo-cl-path*)
+(setq inferior-lisp-program *yanqirenshi-cl-path*)
 (add-to-list 'load-path "~/.emacs.d/dist/slime/")
 (require 'slime)
 (slime-setup *slime-modes*)
