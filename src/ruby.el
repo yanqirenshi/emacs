@@ -50,3 +50,15 @@
 (autoload 'robe-mode "robe" "Code navigation, documentation lookup and completion for Ruby" t nil)
 (autoload 'robe-ac-setup "robe-ac" "robe auto-complete" nil nil)
 (add-hook 'ruby-mode-hook 'robe-mode)
+
+
+;;;;;
+;;;;; robe
+;;;;; ---------------------------
+;;;;; コード補完するよ。
+;;;;;
+(require 'helm)
+(require 'helm-rdefs)
+(add-hook 'ruby-mode-hook
+          (lambda ()
+            (define-key ruby-mode-map (kbd "C-c @") 'helm-rdefs)))
