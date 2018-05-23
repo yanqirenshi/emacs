@@ -30,3 +30,9 @@
 (add-hook 'markdown-mode-hook
           #'(lambda()
           (add-hook 'after-save-hook 'cleanup-org-tables  nil 'make-it-local)))
+
+;;;
+;;; プレビューの設定
+;;; https://qiita.com/gooichi/items/2b185dbdf24166a15ca4
+;;;
+(setq markdown-command "multimarkdown")
