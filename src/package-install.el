@@ -15,6 +15,7 @@
 (package-install! 'open-junk-file)
 (package-install! 'request)
 (package-install! 's)
+(package-install! 'powershell)
 
 ;; (package-install! 'slime-js)
 (print "end package")
