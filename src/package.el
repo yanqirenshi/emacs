@@ -7,14 +7,20 @@
 ;;;
 (require 'package)
 
-;;; インストール先を指定?
-(add-to-list 'load-path "~/.emacs.d/lisp/dist/package.el")
-
-;;; add other package melpa
+;;;
+;;; リポジトリ情報 の追加
+;;;
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
-(add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/"))
 
+
+;;;
 ;;; 初期化
+;;;
 (package-initialize)
+
+
+;;;
+;;; パッケージ情報の更新
+;;;
+(package-refresh-contents)
