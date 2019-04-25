@@ -1,7 +1,4 @@
-(print "start package")
-
 (package-install! 'restart-emacs)
-(package-install! 'ddskk)
 (package-install! 'magit)
 (package-install! 'git-gutter)
 (package-install! 'org)
@@ -15,7 +12,5 @@
 (package-install! 'open-junk-file)
 (package-install! 'request)
 (package-install! 's)
+(package-install! 'f)
 (package-install! 'powershell)
-
-;; (package-install! 'slime-js)
-(print "end package")
