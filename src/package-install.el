@@ -1,3 +1,7 @@
+(defun package-install! (package-symbol)
+   (unless (package-installed-p package-symbol)
+    (package-install package-symbol)))
+
 (package-install! 'restart-emacs)
 (package-install! 'magit)
 (package-install! 'git-gutter)
