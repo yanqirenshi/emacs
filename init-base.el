@@ -38,7 +38,8 @@
 (load "~/.emacs.d/dist/emacs/src/markdown-mode.el")      ;; markdown-mode
 (load "~/.emacs.d/dist/emacs/src/open-junk-file.el")     ;; open junk file
 ;;; programing
-(load "~/.emacs.d/dist/emacs/src/js2-mode.el")           ;; js2-mode
+;;(load "~/.emacs.d/dist/emacs/src/js2-mode.el")         ;; js2-mode
+(load "~/.emacs.d/dist/emacs/src/rjsx-mode.el")          ;; rjsx-mode
 (load "~/.emacs.d/dist/emacs/src/web-mode.el")           ;; web-mode
 ;;; sns
 (load "~/.emacs.d/dist/emacs/src/twittering-mode.el")    ;; twitter

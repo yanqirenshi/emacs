@@ -31,7 +31,7 @@
 ;;;
 ;;; 背景半透明
 ;;;
-(set-frame-parameter nil 'alpha 93)
+(set-frame-parameter nil 'alpha 98)
 
 ;;;
 ;;; 大文字小文字の変換を有効にする。
