@@ -1,1 +1,1 @@
-(load-theme 'tango-dark)
+(load-theme 'tango)
