@@ -1,4 +1,5 @@
 (print "start package")
+
 ;; 必要であればプロキシの設定
 ;;(setq url-proxy-services '(("http" . "999.999.999.999:8080")))
 
@@ -6,6 +7,7 @@
 ;;; package mode
 ;;;
 (require 'package)
+
 
 ;;;
 ;;; リポジトリ情報 の追加
@@ -40,8 +42,10 @@
 (package-install! 'markdown-mode)
 (package-install! 'twittering-mode)
 (package-install! 'flycheck)
-(package-install! 'web-mode)
-(package-install! 'js2-mode)
+;; (package-install! 'web-mode)
+;; (package-install! 'js2-mode)
+(package-install! 'rjsx-mode)
+(package-install! 'json-mode)
 (package-install! 'tabbar)
 (package-install! 'exec-path-from-shell)
 (package-install! 'open-junk-file)
