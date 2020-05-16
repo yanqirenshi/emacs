@@ -53,3 +53,5 @@
 (package-install! 's)
 (package-install! 'f)
 (package-install! 'powershell)
+
+(package-install! 'ddskk)
