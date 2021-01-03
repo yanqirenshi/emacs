@@ -13,7 +13,7 @@
 ;;; リポジトリ情報 の追加
 ;;;
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "https://melpa.org/packages/") t)
 
 
 ;;;
