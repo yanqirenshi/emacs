@@ -4,7 +4,7 @@
 ;;; default-directory
 ;;;   http://qiita.com/t2psyto/items/05776f010792ba967152
 ;;;
-(setq default-directory "~/") 
+(setq default-directory "~/")
 (setq command-line-default-directory "~/")
 
 ;;;
@@ -31,7 +31,7 @@
 ;;;
 ;;; 背景半透明
 ;;;
-(set-frame-parameter nil 'alpha 98)
+(set-frame-parameter nil 'alpha 100)
 
 ;;;
 ;;; 大文字小文字の変換を有効にする。

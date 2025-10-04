@@ -1,4 +1,5 @@
-(defvar *yanqirenshi-cl-path* "ros run -- --dynamic-space-size 3072")
+;; (defvar *yanqirenshi-cl-path* "ros run -- --dynamic-space-size 3072")
+(defvar *yanqirenshi-cl-path* "sbcl")
 
 ;;;;;
 ;;;;; check input variable
