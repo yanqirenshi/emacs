@@ -12,8 +12,10 @@
 ;;;
 ;;; リポジトリ情報 の追加
 ;;;
-(add-to-list 'package-archives
-             '("melpa" . "https://melpa.org/packages/") t)
+(setq package-archives
+      '(("gnu"      . "https://elpa.gnu.org/packages/")
+        ("melpa"    . "https://melpa.org/packages/")
+        ("jcs-elpa" . "https://jcs-emacs.github.io/jcs-elpa/packages/")))
 
 
 ;;;
@@ -40,7 +42,8 @@
     (package-install! package-symbol)))
 
 (packages-install!
- '(restart-emacs
+ '(use-package
+   restart-emacs
    magit
    git-gutter
    org
@@ -62,25 +65,7 @@
    ;; sns
    ;; twittering-mode
    ;; auto complete
-   auto-complete))
-
-;; (package-install! 'restart-emacs)
-;; (package-install! 'magit)
-;; (package-install! 'git-gutter)
-;; (package-install! 'org)
-;; (package-install! 'markdown-mode)
-;; ;; (package-install! 'twittering-mode)
-;; (package-install! 'flycheck)
-;; ;; (package-install! 'web-mode)
-;; ;; (package-install! 'js2-mode)
-;; (package-install! 'rjsx-mode)
-;; (package-install! 'json-mode)
-;; (package-install! 'tabbar)
-;; (package-install! 'exec-path-from-shell)
-;; (package-install! 'open-junk-file)
-;; (package-install! 'request)
-;; (package-install! 's)
-;; (package-install! 'f)
-;; (package-install! 'powershell)
-;; (package-install! 'ddskk)
-;; (package-install! 'auto-complete)
+   ;; auto-complete
+   ;; ai
+   openai
+   chatgpt))

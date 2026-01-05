@@ -4,14 +4,20 @@
 (load "~/.emacs.d/dist/emacs/init-buffer.el")
 (load "~/.emacs.d/dist/emacs/init-ime.el")
 (load "~/.emacs.d/dist/emacs/init-text-edit.el")
-(load "~/.emacs.d/dist/emacs/init-auto-complete.el")
 (load "~/.emacs.d/dist/emacs/init-dev.el")
-(load "~/.emacs.d/dist/emacs/init-sns.el")
 (load "~/.emacs.d/dist/emacs/init-etc.el")
 
-;;(load "~/.emacs.d/dist/emacs/init-blog.el")
-;; (load "~/.emacs.d/dist/emacs/init-lisp.el")
-;;(load "~/.emacs.d/dist/emacs/init-ruby.el")
+;; (load "~/.emacs.d/dist/emacs/init-blog.el")
+
+;;;;;
+;;;;; 廃棄予定
+;;;;;
+;; (load "~/.emacs.d/dist/emacs/init-sns.el")
+;; (load "~/.emacs.d/dist/emacs/init-auto-complete.el")
+;; (load "~/.emacs.d/dist/emacs/init-lisp-slime.el")
+;; (load "~/.emacs.d/dist/emacs/init-lisp-slime.sbcl.el")
+;; (load "~/.emacs.d/dist/emacs/init-ruby.el")
+
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

@@ -29,11 +29,6 @@
 (setq frame-title-format (format "emacs@%s : %%f" (system-name))) ;;; タイトルバーにファイル名を表示する
 
 ;;;
-;;; 背景半透明
-;;;
-(set-frame-parameter nil 'alpha 100)
-
-;;;
 ;;; 大文字小文字の変換を有効にする。
 ;;;
 (put 'upcase-region  'disabled nil)
