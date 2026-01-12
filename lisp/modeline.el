@@ -1,3 +1,5 @@
+;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+
 ;; https://qiita.com/kai2nenobu/items/ddf94c0e5a36919bc6db
 
 (require 'cl-lib)

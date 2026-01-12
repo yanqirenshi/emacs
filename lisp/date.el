@@ -1,3 +1,5 @@
+;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+
 (defun insert-current-date ()
   (interactive)
   (insert (format-time-string "%Y-%m-%d (%a)")))

@@ -1,3 +1,5 @@
+;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+
 ;;;
 ;;; カーソル行のハイライト
 ;;; http://murakan.cocolog-nifty.com/blog/2009/01/emacs-tips-1d45.html

@@ -1,3 +1,5 @@
+;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+
 (add-to-list 'auto-mode-alist '("\\.tsx$" . tsx-ts-mode))
 
 ;;;;;

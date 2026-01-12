@@ -1,3 +1,5 @@
+;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+
 ;;;;;
 ;;;;; open-junk-file.el
 ;;;;; <参考URL>

@@ -1,3 +1,7 @@
+;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+
+;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+
 (print "start package")
 
 ;; 必要であればプロキシの設定

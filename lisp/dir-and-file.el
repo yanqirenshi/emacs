@@ -1,3 +1,5 @@
+;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+
 (defun reopen-with-sudo ()
   "root 権限でファイルを開き直す
 参照: http://qiita.com/k_ui/items/d9e03ea9523036970519"

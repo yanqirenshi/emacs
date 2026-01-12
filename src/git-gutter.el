@@ -1,3 +1,5 @@
+;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+
 (require 'git-gutter)
 (global-git-gutter-mode +1)
 (setq git-gutter:added-sign "++")

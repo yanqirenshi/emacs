@@ -1,3 +1,5 @@
+;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+
 (add-to-list 'load-path "~/.emacs.d/dist/el-get")
 (require 'el-get)
 (setq el-get-dir "~/.emacs.d/el-get")

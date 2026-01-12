@@ -1,3 +1,5 @@
+;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+
 ;;;
 ;;; 背景半透明
 ;;;

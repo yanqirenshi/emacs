@@ -1,3 +1,5 @@
+;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+
 ;;;;;
 ;;;;; js2-mode
 ;;;;;

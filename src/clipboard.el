@@ -1,3 +1,5 @@
+;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+
 ;;;
 ;;; クリップボード: http://d.hatena.ne.jp/kakurasan/20070625/p1
 ;;;
