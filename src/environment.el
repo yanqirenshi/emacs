@@ -15,22 +15,6 @@
 (setq-default tab-width 4 indent-tabs-mode nil)
 
 ;;;
-;;; menu-bar
-;;;
-(menu-bar-mode t)
-
-;;;
-;;; tool-bar
-;;;
-(when window-system
-  (tool-bar-mode 0))
-
-;;;
-;;; title-bar
-;;;
-(setq frame-title-format (format "emacs@%s : %%f" (system-name))) ;;; タイトルバーにファイル名を表示する
-
-;;;
 ;;; 大文字小文字の変換を有効にする。
 ;;;
 (put 'upcase-region  'disabled nil)
@@ -40,11 +24,6 @@
 ;;; 最近使ったファイルを保存(M-x recentf-open-filesで開く)
 ;;;
 (recentf-mode)
-
-;;;
-;;; ビープ音: http://qiita.com/ongaeshi/items/696407fc6c42072add54
-;;;
-(setq ring-bell-function 'ignore)
 
 ;;;
 ;;; change browser

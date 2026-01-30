@@ -50,4 +50,4 @@
 
 
 ;; パスの設定
-(add-to-list 'exec-path (expand-file-name "~/.nvm/versions/node/v24.12.0/bin/"))
+(add-to-list 'exec-path (expand-file-name "c:/Program Files/Volta/"))
