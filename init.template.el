@@ -67,6 +67,7 @@
 ;; (load "~/.emacs.d/dist/emacs/src/web-mode.el")   ;; web-mode
 (load "~/.emacs.d/dist/emacs/src/rjsx-mode.el")     ;; rjsx-mode
 (load "~/.emacs.d/dist/emacs/src/tsx-mode.el")      ;; tsx-mode
+(load "~/.emacs.d/dist/emacs/src/vterm.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
