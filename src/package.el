@@ -19,7 +19,8 @@
 (setq package-archives
       '(("gnu"      . "https://elpa.gnu.org/packages/")
         ("melpa"    . "https://melpa.org/packages/")
-        ("jcs-elpa" . "https://jcs-emacs.github.io/jcs-elpa/packages/")))
+        ("jcs-elpa" . "https://jcs-emacs.github.io/jcs-elpa/packages/")
+        ("nongnu" . "https://elpa.nongnu.org/nongnu/")))
 
 
 ;;;
