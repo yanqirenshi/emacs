@@ -2,6 +2,8 @@
 
 (add-to-list 'auto-mode-alist '("\\.tsx$" . tsx-ts-mode))
 
+;; npm install -g typescript typescript-language-server
+
 ;;;;;
 ;;;;; tsx-mode
 ;;;;; orzechowskid/tsx-mode.el
