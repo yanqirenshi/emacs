@@ -35,6 +35,7 @@
 (load "~/.emacs.d/dist/emacs/src/path.el")
 (load "~/.emacs.d/dist/emacs/src/clipboard.el")
 (load "~/.emacs.d/dist/emacs/lisp/modeline.el")
+(load "~/.emacs.d/dist/emacs/src/auth-source.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -72,6 +73,13 @@
 (load "~/.emacs.d/dist/emacs/src/tsx-mode.el")
 (load "~/.emacs.d/dist/emacs/src/node.el")
 (load "~/.emacs.d/dist/emacs/src/lsp.el")
+(load "~/.emacs.d/dist/emacs/src/git-gutter.el")
+
+
+;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;  AI
+;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(load "~/.emacs.d/dist/emacs/src/gptel.el")
 (load "~/.emacs.d/dist/emacs/src/git-gutter.el")
 
 
