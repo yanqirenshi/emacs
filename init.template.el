@@ -70,6 +70,7 @@
 ;;;;;  Develop
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (load "~/.emacs.d/dist/emacs/src/rjsx-mode.el")
+(load "~/.emacs.d/dist/emacs/src/ts-mode.el")
 (load "~/.emacs.d/dist/emacs/src/tsx-mode.el")
 (load "~/.emacs.d/dist/emacs/src/node.el")
 (load "~/.emacs.d/dist/emacs/src/lsp.el")

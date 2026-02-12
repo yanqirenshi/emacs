@@ -14,6 +14,7 @@
          (rust-mode . lsp))
   :commands lsp
   :config
+  (setq lsp-auto-configure t)
   ;; パフォーマンス設定
   (setq lsp-idle-delay 0.5)
   (setq lsp-log-io nil)  ;; デバッグ時は t に
