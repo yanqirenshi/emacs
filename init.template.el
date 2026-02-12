@@ -74,7 +74,7 @@
 (load "~/.emacs.d/dist/emacs/src/node.el")
 (load "~/.emacs.d/dist/emacs/src/lsp.el")
 (load "~/.emacs.d/dist/emacs/src/git-gutter.el")
-
+(load "~/.emacs.d/dist/emacs/src/vterm.el")
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  AI

@@ -2,6 +2,8 @@
 
 (setq inhibit-startup-message t)
 
+(global-font-lock-mode 1)
+
 ;;;
 ;;; default-directory
 ;;;   http://qiita.com/t2psyto/items/05776f010792ba967152

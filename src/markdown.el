@@ -5,20 +5,26 @@
 ;;;;; <url>
 ;;;;;  http://www.emacswiki.org/emacs/MarkdownMode
 ;;;;;
+(use-package markdown-mode
+  :ensure t
+  :mode (("\\.md\\'" . markdown-mode)
+         ("\\.markdown\\'" . markdown-mode)
+         ("README\\.md\\'" . gfm-mode))  ;; GitHub Flavored Markdown
+  :init
+  ;; プレビューの設定
+  ;; https://qiita.com/gooichi/items/2b185dbdf24166a15ca4
+  (setq markdown-command "multimarkdown")
+  :config
+  ;; シンタックスハイライトの設定
+  (setq markdown-fontify-code-blocks-natively t)  ;; コードブロックをハイライト
+  (setq markdown-hide-markup nil)                 ;; マークアップ記号を隠さない
 
-;;;
-;;; 拡張子との関連付け
-;;;
-(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
-(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
-
-;;;
-;;; ほかの設定
-;;;
-(add-hook 'markdown-mode-hook
-          (lambda () (auto-fill-mode -1)))
-
-(add-hook 'markdown-mode-hook 'turn-on-orgtbl)
+  ;; フックで確実にフォントロックを有効化
+  (add-hook 'markdown-mode-hook
+            (lambda ()
+              (font-lock-mode 1)
+              (font-lock-ensure)
+              (auto-fill-mode -1))))
 
 ;;;
 ;;; Markdown で表(テーブル)を描く
@@ -29,12 +35,10 @@
     (goto-char (point-min))
     (while (search-forward "-+-" nil t) (replace-match "-|-"))))
 (add-hook 'markdown-mode-hook 'orgtbl-mode)
+(add-hook 'markdown-mode-hook 'turn-on-orgtbl)
 (add-hook 'markdown-mode-hook
           #'(lambda()
-              (add-hook 'after-save-hook 'cleanup-org-tables  nil 'make-it-local)))
-
-;;;
-;;; プレビューの設定
-;;; https://qiita.com/gooichi/items/2b185dbdf24166a15ca4
-;;;
-(setq markdown-command "multimarkdown")
+              (add-hook 'after-save-hook
+                        'cleanup-org-tables
+                        nil
+                        'make-it-local)))
