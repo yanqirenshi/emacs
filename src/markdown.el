@@ -26,10 +26,18 @@
               (font-lock-ensure)
               (auto-fill-mode -1))))
 
-;;;
-;;; Markdown で表(テーブル)を描く
-;;; http://qiita.com/nanasess/items/c9342c06a3e28e64aeb8
-;;;
+;;;;;
+;;;;; pandoc
+;;;;; sudo apt install pandoc
+;;;;; markdown-preview (C-c C-c p)
+;;;;;
+(setq markdown-command "pandoc")
+
+
+;;;;;
+;;;;; Markdown で表(テーブル)を描く
+;;;;; http://qiita.com/nanasess/items/c9342c06a3e28e64aeb8
+;;;;;
 (defun cleanup-org-tables ()
   (save-excursion
     (goto-char (point-min))
