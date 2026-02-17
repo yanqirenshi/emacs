@@ -1,17 +1,24 @@
 ;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
 
-;;;;;
-;;;;; setting path
-;;;;;
-;;;;; terminal の PATH を引き継ぐ。
-;;;;;   参考: http://qiita.com/catatsuy/items/3dda714f4c60c435bb25
-;;;;;
+(use-package exec-path-from-shell
+  :ensure t
+  :if (memq window-system '(pgtk x ns))
+  :init
+  (exec-path-from-shell-initialize)
+  :config
 
-;; windwos は実行しない
-(unless (eq window-system 'w32)
-  (exec-path-from-shell-initialize))
+  (exec-path-from-shell-copy-envs
+   '("LANG" "LC_ALL" "LC_CTYPE" "PATH")))
 
-;; Mac のみ。
-(when (eq window-system 'ns)
-  (setenv "PS1" "\\w$ ")
-  (setenv "LANG" "ja_JP.UTF-8"))
+(pcase window-system
+  ('ns  ;; macOS
+   (setenv "PS1" "\\w$ "))
+  ((or 'x 'pgtk)  ;; Linux
+   (when (getenv "WSL_DISTRO_NAME")
+     ;; WSL2
+     nil)))
+
+(unless (member (getenv "LANG") '("ja_JP.UTF-8" "ja_JP.utf8"))
+  (setenv "LANG" "ja_JP.UTF-8")
+  (setenv "LC_ALL" "ja_JP.UTF-8")
+  (message "LANG was not set correctly, set to ja_JP.UTF-8"))
