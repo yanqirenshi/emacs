@@ -67,14 +67,21 @@
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;  Lisp
+;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(load "~/.emacs.d/dist/emacs/src/lsp.el")
+(load "~/.emacs.d/dist/emacs/src/spinor.el")
+(load "~/.emacs.d/dist/emacs/src/sly.el")
+(load "~/.emacs.d/dist/emacs/src/haskell.el")
+
+
+;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  Develop
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (load "~/.emacs.d/dist/emacs/src/rjsx-mode.el")
 (load "~/.emacs.d/dist/emacs/src/ts-mode.el")
 (load "~/.emacs.d/dist/emacs/src/tsx-mode.el")
 (load "~/.emacs.d/dist/emacs/src/node.el")
-(load "~/.emacs.d/dist/emacs/src/haskell.el")
-(load "~/.emacs.d/dist/emacs/src/lsp.el")
 (load "~/.emacs.d/dist/emacs/src/git-gutter.el")
 (load "~/.emacs.d/dist/emacs/src/vterm.el")
 
