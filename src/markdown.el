@@ -26,10 +26,13 @@
               (font-lock-ensure)
               (auto-fill-mode -1))))
 
+
 ;;;;;
 ;;;;; pandoc
-;;;;; sudo apt install pandoc
 ;;;;; markdown-preview (C-c C-c p)
+;;;;;
+;;;;; sudo apt install pandoc
+;;;;; winget install JohnMacFarlane.Pandoc
 ;;;;;
 (setq markdown-command "pandoc")
 
