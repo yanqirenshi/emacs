@@ -11,8 +11,9 @@
   :ensure t
   :hook ((typescript-mode . lsp)
          (tsx-ts-mode . lsp)
-         (rust-mode . lsp))
-  :commands lsp
+         (rust-mode . lsp)
+         (spinor-mode . lsp-deferred))
+  :commands (lsp lsp-deferred) ;; lsp
   :config
   (setq lsp-auto-configure t)
   ;; パフォーマンス設定
@@ -20,7 +21,13 @@
   (setq lsp-log-io nil)  ;; デバッグ時は t に
   ;; UI 設定
   (setq lsp-headerline-breadcrumb-enable t)
-  (setq lsp-modeline-code-actions-enable t))
+  (setq lsp-modeline-code-actions-enable t)
+  (lsp-register-client
+   (make-lsp-client
+    :server-id 'spinor-lsp
+    :new-connection (lsp-stdio-connection '("cabal" "run" "spinor" "--" "lsp"))
+    :major-modes '(spinor-mode)
+    :priority -1)))
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
