@@ -106,3 +106,25 @@
 (load "~/.emacs.d/dist/emacs/src/ter-mode.el")
 ;; hatena-blog-mode
 (load "~/.emacs.d/dist/emacs/src/hatena-blog-writer.el")
+;; 1. ユーザーを登録
+;; (hatena-blog-writer-add-user
+;;  (hatena-blog-writer-make-user "yanqirenshi" "renshi"))
+;; 2. ユーザーリストを永続化
+;; (hatena-blog-writer-save-users)
+;; 3. ブログを登録
+;;    api-key は はてなブログの [設定] > [詳細設定] > [AtomPub] > [APIキー] から取得
+;; (hatena-blog-writer-add-blog
+;;  (hatena-blog-writer-make-blog "yanqirenshi.hatenablog.com"
+;;                                "ほんとのこと知りたいだけなのに。"
+;;                                "XXXXXX"))
+;; 4. ブログリストを永続化
+;; (hatena-blog-writer-save-blogs)
+
+(hatena-blog-writer-change-user "")
+(hatena-blog-writer-change-blog "")
+
+
+;; github.sitter
+(load "~/prj/github.sitter/init.el")
+(setq github-variable-token "")
+(setq github-variable-directory "~/prj/")
