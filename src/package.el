@@ -32,7 +32,7 @@
 ;;;
 ;;; パッケージ情報の更新
 ;;;
-(package-refresh-contents)
+;; (package-refresh-contents)
 
 
 ;;;
