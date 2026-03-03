@@ -3,109 +3,109 @@
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  Native Compile
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(load "~/.emacs.d/dist/emacs/src/msys2.el")
+(load "~/prj/emacs/src/msys2.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  font
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(load "~/.emacs.d/dist/emacs/src/font.el")
+(load "~/prj/emacs/src/font.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;; My Lisp
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(load "~/.emacs.d/dist/emacs/lisp/my.el")
-(load "~/.emacs.d/dist/emacs/lisp/date.el")
-(load "~/.emacs.d/dist/emacs/lisp/dir-and-file.el")
+(load "~/prj/emacs/lisp/my.el")
+(load "~/prj/emacs/lisp/date.el")
+(load "~/prj/emacs/lisp/dir-and-file.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  Package
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(load "~/.emacs.d/dist/emacs/src/package.el")
+(load "~/prj/emacs/src/package.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  Environment
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(load "~/.emacs.d/dist/emacs/src/language.el")
-(load "~/.emacs.d/dist/emacs/src/environment.el")
-(load "~/.emacs.d/dist/emacs/src/sounds.el")
-(load "~/.emacs.d/dist/emacs/src/path.el")
-(load "~/.emacs.d/dist/emacs/src/clipboard.el")
-(load "~/.emacs.d/dist/emacs/lisp/modeline.el")
-(load "~/.emacs.d/dist/emacs/src/auth-source.el")
+(load "~/prj/emacs/src/language.el")
+(load "~/prj/emacs/src/environment.el")
+(load "~/prj/emacs/src/sounds.el")
+(load "~/prj/emacs/src/path.el")
+(load "~/prj/emacs/src/clipboard.el")
+(load "~/prj/emacs/lisp/modeline.el")
+(load "~/prj/emacs/src/auth-source.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  Buffer
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(load "~/.emacs.d/dist/emacs/src/title-bar.el")
-(load "~/.emacs.d/dist/emacs/src/tool-bar.el")
-(load "~/.emacs.d/dist/emacs/src/menu-bar.el")
-(load "~/.emacs.d/dist/emacs/src/cursor.el")
-(load "~/.emacs.d/dist/emacs/src/mode-line.el")
-(load "~/.emacs.d/dist/emacs/src/theme.el")
-(load "~/.emacs.d/dist/emacs/src/buffer.el")
-(load "~/.emacs.d/dist/emacs/src/whitespace.el")
+(load "~/prj/emacs/src/title-bar.el")
+(load "~/prj/emacs/src/tool-bar.el")
+(load "~/prj/emacs/src/menu-bar.el")
+(load "~/prj/emacs/src/cursor.el")
+(load "~/prj/emacs/src/mode-line.el")
+(load "~/prj/emacs/src/theme.el")
+(load "~/prj/emacs/src/buffer.el")
+(load "~/prj/emacs/src/whitespace.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  IME
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(load "~/.emacs.d/dist/emacs/src/ddskk.el")
+(load "~/prj/emacs/src/ddskk.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  Text Edit
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(load "~/.emacs.d/dist/emacs/src/org.el")
-(load "~/.emacs.d/dist/emacs/src/markdown.el")
-(load "~/.emacs.d/dist/emacs/src/picture.el")
-(load "~/.emacs.d/dist/emacs/src/open-junk-file.el")
+(load "~/prj/emacs/src/org.el")
+(load "~/prj/emacs/src/markdown.el")
+(load "~/prj/emacs/src/picture.el")
+(load "~/prj/emacs/src/open-junk-file.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  Lisp
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(load "~/.emacs.d/dist/emacs/src/lsp.el")
-(load "~/.emacs.d/dist/emacs/src/spinor.el")
-(load "~/.emacs.d/dist/emacs/src/sly.el")
-(load "~/.emacs.d/dist/emacs/src/haskell.el")
+(load "~/prj/emacs/src/lsp.el")
+(load "~/prj/emacs/src/spinor.el")
+(load "~/prj/emacs/src/sly.el")
+(load "~/prj/emacs/src/haskell.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  Develop
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(load "~/.emacs.d/dist/emacs/src/rjsx-mode.el")
-(load "~/.emacs.d/dist/emacs/src/ts-mode.el")
-(load "~/.emacs.d/dist/emacs/src/tsx-mode.el")
-(load "~/.emacs.d/dist/emacs/src/node.el")
-(load "~/.emacs.d/dist/emacs/src/git-gutter.el")
-(load "~/.emacs.d/dist/emacs/src/vterm.el")
+(load "~/prj/emacs/src/rjsx-mode.el")
+(load "~/prj/emacs/src/ts-mode.el")
+(load "~/prj/emacs/src/tsx-mode.el")
+(load "~/prj/emacs/src/node.el")
+(load "~/prj/emacs/src/git-gutter.el")
+(load "~/prj/emacs/src/vterm.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  AI
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(load "~/.emacs.d/dist/emacs/src/gptel.el")
-(load "~/.emacs.d/dist/emacs/src/git-gutter.el")
+(load "~/prj/emacs/src/gptel.el")
+(load "~/prj/emacs/src/git-gutter.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  Browser
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(load "~/.emacs.d/dist/emacs/src/eww.el")
+(load "~/prj/emacs/src/eww.el")
 
 
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;  My ELisp Libs
 ;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; T-ER Mode
-(load "~/.emacs.d/dist/emacs/src/ter-mode.el")
+(load "~/prj/emacs/src/ter-mode.el")
 ;; hatena-blog-mode
-(load "~/.emacs.d/dist/emacs/src/hatena-blog-writer.el")
+(load "~/prj/emacs/src/hatena-blog-writer.el")
 ;; 1. ユーザーを登録
 ;; (hatena-blog-writer-add-user
 ;;  (hatena-blog-writer-make-user "yanqirenshi" "renshi"))
