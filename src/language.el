@@ -52,8 +52,8 @@
   (set-default-coding-systems 'utf-8-dos)
   (set-terminal-coding-system 'utf-8-dos)
   (set-keyboard-coding-system 'utf-8-dos)
-  (set-selection-coding-system 'utf-16-le)
-  (set-clipboard-coding-system 'utf-16-le)
+  ;; クリップボードはデフォルトの utf-16le-dos (BOMなし) を使う。
+  ;; 'utf-16-le は utf-16le-with-signature の別名で BOM が付くので指定しないこと。
   (set-buffer-file-coding-system 'utf-8-dos)
   (set-file-name-coding-system 'cp932)
   (message "Encoding: Windows"))
