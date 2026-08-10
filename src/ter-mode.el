@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; ter-mode.el --- T-ER mode settings -*- lexical-binding: t; -*-
 
 ;;;;;
 ;;;;; T-ER Mode

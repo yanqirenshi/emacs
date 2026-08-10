@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; dir-and-file.el --- Directory and file utilities -*- lexical-binding: t; -*-
 
 (defun reopen-with-sudo ()
   "root 権限でファイルを開き直す

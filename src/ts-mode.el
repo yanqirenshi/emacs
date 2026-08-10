@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; ts-mode.el --- TypeScript mode settings -*- lexical-binding: t; -*-
 
 (use-package typescript-ts-mode
   :mode "\\.ts\\'"

@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; global-whitespace-mode.el --- global-whitespace-mode settings -*- lexical-binding: t; -*-
 
 ;; http://masutaka.net/chalow/2011-10-12-1.html
 

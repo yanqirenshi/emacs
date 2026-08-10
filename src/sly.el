@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; sly.el --- SLY settings -*- lexical-binding: t; -*-
 
 (use-package sly
   :ensure t

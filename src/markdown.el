@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; markdown.el --- Markdown settings -*- lexical-binding: t; -*-
 
 ;;;;;
 ;;;;; Markdown Mode

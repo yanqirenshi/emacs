@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; tool-bar.el --- Tool bar settings -*- lexical-binding: t; -*-
 
 (when window-system
   (tool-bar-mode 0))

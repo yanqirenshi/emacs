@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; mode-line.el --- Mode line settings -*- lexical-binding: t; -*-
 
 ;;;
 ;;; カーソルがある行の行数を表示

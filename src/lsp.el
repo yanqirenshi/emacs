@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; lsp.el --- LSP settings -*- lexical-binding: t; -*-
 
 ;;; npm install -g typescript typescript-language-server
 ;;; typescript-language-server --version

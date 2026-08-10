@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; node.el --- Node.js settings -*- lexical-binding: t; -*-
 
 ;; USERPROFILE は Windows のユーザーホームディレクトリを指す環境変数です。
 ;; $env:USERPROFILE

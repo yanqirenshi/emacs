@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; spinor.el --- Spinor mode settings -*- lexical-binding: t; -*-
 
 (add-to-list 'load-path "~/prj/Spinor/editors/emacs/")
 (require 'spinor-mode nil t)

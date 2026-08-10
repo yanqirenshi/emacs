@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; vterm.el --- vterm settings -*- lexical-binding: t; -*-
 
 ;; sudo apt install -y cmake libtool-bin libvterm-dev
 

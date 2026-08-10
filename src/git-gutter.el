@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; git-gutter.el --- git-gutter settings -*- lexical-binding: t; -*-
 
 (require 'git-gutter)
 (global-git-gutter-mode +1)

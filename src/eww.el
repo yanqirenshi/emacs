@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; eww.el --- EWW settings -*- lexical-binding: t; -*-
 
 ;;;
 ;;; eww

@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; llm.el --- LLM settings -*- lexical-binding: t; -*-
 
 (use-package gptel
   :ensure t

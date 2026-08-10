@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; org.el --- Org-mode settings -*- lexical-binding: t; -*-
 
 ;;;;;
 ;;;;; Org-mode

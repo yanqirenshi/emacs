@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; whitespace.el --- Whitespace settings -*- lexical-binding: t; -*-
 
 (require 'whitespace)
 

@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; path.el --- PATH settings -*- lexical-binding: t; -*-
 
 (use-package exec-path-from-shell
   :ensure t

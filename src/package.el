@@ -1,6 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
-
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; package.el --- Package settings -*- lexical-binding: t; -*-
 
 (print "start package")
 

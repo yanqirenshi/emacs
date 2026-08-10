@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; font-mac.el --- Font settings for macOS -*- lexical-binding: t; -*-
 
 ;;;;;
 ;;;;; なんやろ、これ。

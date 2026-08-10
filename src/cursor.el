@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; cursor.el --- Cursor settings -*- lexical-binding: t; -*-
 
 ;;;
 ;;; カーソル行のハイライト

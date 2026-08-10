@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; buffer.el --- Buffer display settings -*- lexical-binding: t; -*-
 
 ;;;
 ;;; 背景半透明

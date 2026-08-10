@@ -1,3 +1,3 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; menu-bar.el --- Menu bar settings -*- lexical-binding: t; -*-
 
 (menu-bar-mode t)

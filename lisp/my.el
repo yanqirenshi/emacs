@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; my.el --- My utility functions -*- lexical-binding: t; -*-
 
 ;;;;;
 ;;;;; コード整形するやつ。たぶん。

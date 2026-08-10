@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; pretty-symbols.el --- pretty-symbols settings -*- lexical-binding: t; -*-
 
 ;;;;;
 ;;;;; http://rubikitch.com/2014/08/15/pretty-symbols/

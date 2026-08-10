@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; color-theme.el --- color-theme settings -*- lexical-binding: t; -*-
 
 ;;;;;
 ;;;;; color-theme

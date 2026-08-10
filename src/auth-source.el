@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; auth-source.el --- auth-source settings -*- lexical-binding: t; -*-
 
 ;; GPG のインストール
 ;;   winget install GnuPG.Gpg4win

@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; ddskk.el --- DDSKK (SKK) settings -*- lexical-binding: t; -*-
 
 ;;;;;
 ;;;;; SKK

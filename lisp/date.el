@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; date.el --- Date insertion utilities -*- lexical-binding: t; -*-
 
 (defun insert-current-date ()
   (interactive)

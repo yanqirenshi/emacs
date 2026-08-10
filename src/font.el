@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; font.el --- Font settings -*- lexical-binding: t; -*-
 
 (cond
  ((member "みかちゃん" (font-family-list))

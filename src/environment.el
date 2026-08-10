@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; environment.el --- Environment settings -*- lexical-binding: t; -*-
 
 (setq inhibit-startup-message t)
 

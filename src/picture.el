@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; picture.el --- picture-mode settings -*- lexical-binding: t; -*-
 
 ;;;;;
 ;;;;; 拡張子の関連づけ

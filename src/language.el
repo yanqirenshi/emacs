@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; language.el --- Language and coding system settings -*- lexical-binding: t; -*-
 
 
 ;; 日本語環境の設定（日本語入力や表示に最適化された設定を一括適用）

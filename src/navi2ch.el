@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; navi2ch.el --- navi2ch settings -*- lexical-binding: t; -*-
 
 ;;
 ;; navi2ch

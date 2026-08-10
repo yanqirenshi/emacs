@@ -1,4 +1,4 @@
-;;; init-environment.el --- Environment settings -*- lexical-binding: t; -*-
+;;; open-junk-file.el --- open-junk-file settings -*- lexical-binding: t; -*-
 
 ;;;;;
 ;;;;; open-junk-file.el
