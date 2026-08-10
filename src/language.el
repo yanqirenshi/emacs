@@ -4,9 +4,6 @@
 ;; 日本語環境の設定（日本語入力や表示に最適化された設定を一括適用）
 (set-language-environment 'Japanese)
 
-;; バッファ全体のデフォルト文字コードをUTF-8に設定
-(setq default-buffer-file-coding-system 'utf-8-unix)
-
 ;; 外部プロセス（シェルコマンドやHTTP通信など）との入出力文字コードをUTF-8に設定
 (setq default-process-coding-system '(utf-8-unix . utf-8-unix))
 
