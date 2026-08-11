@@ -76,9 +76,31 @@ a {
 
 .sidebar ul {
   list-style: none;
-  margin: 0;
+  margin: 0 0 8px;
   padding: 0;
+}
+
+.nav-sections {
   flex: 1;
+}
+
+.nav-group-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--fg-muted);
+  text-transform: uppercase;
+  padding: 8px 12px 4px;
+}
+
+.sidebar li a.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.sidebar li a.active:hover {
+  background: var(--accent-dark);
+  color: #fff;
 }
 
 .sidebar li a {
@@ -147,6 +169,16 @@ code {
   color: inherit;
   padding: 0;
   font-size: 13px;
+}
+
+kbd {
+  font-family: Consolas, 'Courier New', monospace;
+  font-size: 0.85em;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  padding: 1px 7px;
 }
 
 table {
