@@ -74,16 +74,12 @@ tsc --version`}</Code>
       <p>
         <code>typescript-ts-mode</code> / <code>tsx-ts-mode</code> は tree-sitter の文法ライブラリが必須です。
         未インストールだとファイルを開いてもモードが正しく動きません。
-        <code>*scratch*</code> などで以下を評価してインストールします (要 C コンパイラ。Windows は MSYS2 の gcc を利用)。
+        文法のソース定義は <code>src/ts-mode.el</code> に含まれているので、
+        Emacs 上で次を実行するだけでインストールできます
+        (要 C コンパイラ。Windows は MSYS2 の gcc を利用)。
       </p>
-      <Code>{`(setq treesit-language-source-alist
-      '((typescript "https://github.com/tree-sitter/tree-sitter-typescript"
-                    "master" "typescript/src")
-        (tsx        "https://github.com/tree-sitter/tree-sitter-typescript"
-                    "master" "tsx/src")))
-
-(treesit-install-language-grammar 'typescript)
-(treesit-install-language-grammar 'tsx)`}</Code>
+      <Code>{`M-x treesit-install-language-grammar RET typescript RET
+M-x treesit-install-language-grammar RET tsx RET`}</Code>
       <p>
         文法は <code>~/.emacs.d/tree-sitter/</code> に配置されます。
         インストールできたかは次で確認します (<code>t</code> が返れば OK)。
