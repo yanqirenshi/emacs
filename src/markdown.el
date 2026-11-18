@@ -38,6 +38,17 @@
 
 
 ;;;;;
+;;;;; MDFVE (自作の Markdown ビューア)
+;;;;; C-c C-c p を mdfve-preview に置き換える。
+;;;;; 元の pandoc + eww のプレビューは M-x markdown-preview で使える。
+;;;;; mdfve.el が無い環境では何もしない。
+;;;;;
+(let ((mdfve-el (expand-file-name "~/prj/mdfve/emacs/mdfve.el")))
+  (when (file-exists-p mdfve-el)
+    (load mdfve-el nil t)))
+
+
+;;;;;
 ;;;;; Markdown で表(テーブル)を描く
 ;;;;; http://qiita.com/nanasess/items/c9342c06a3e28e64aeb8
 ;;;;;
