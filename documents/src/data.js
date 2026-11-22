@@ -100,6 +100,7 @@ export const categories = [
       { name: 'src/rjsx-mode.el', loaded: true, desc: '*.js を rjsx-mode に関連付け。' },
       { name: 'src/ts-mode.el', loaded: true, desc: 'typescript-ts-mode + LSP。' },
       { name: 'src/tsx-mode.el', loaded: true, desc: '*.tsx 用設定。auto-rename-tag / emmet-mode。' },
+      { name: 'src/rust-mode.el', loaded: true, desc: '*.rs を rust-ts-mode に関連付け。rust-analyzer で LSP。' },
       { name: 'src/node.el', loaded: true, desc: 'Windows で Volta の bin を PATH に追加。' },
       { name: 'src/git-gutter.el', loaded: true, desc: '変更行をフリンジに表示。' },
       { name: 'src/vterm.el', loaded: true, desc: 'vterm ターミナル (Windows 以外で有効)。' },

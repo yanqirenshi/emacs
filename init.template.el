@@ -81,6 +81,7 @@
 (load "~/prj/emacs/src/rjsx-mode.el")
 (load "~/prj/emacs/src/ts-mode.el")
 (load "~/prj/emacs/src/tsx-mode.el")
+(load "~/prj/emacs/src/rust-mode.el")
 (load "~/prj/emacs/src/node.el")
 (load "~/prj/emacs/src/git-gutter.el")
 (load "~/prj/emacs/src/vterm.el")

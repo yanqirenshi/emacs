@@ -11,7 +11,6 @@
   :ensure t
   :hook ((typescript-mode . lsp)
          (tsx-ts-mode . lsp)
-         (rust-mode . lsp)
          (spinor-mode . lsp-deferred))
   :commands (lsp lsp-deferred) ;; lsp
   :config
