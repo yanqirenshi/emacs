@@ -6,13 +6,16 @@
 
 (require 'skk)
 
-;;;
-;;; 辞書設定。。。どうしよう。。。
-;;;
-;; (setq skk-user-directory "~/Documents/dic")
-;; (setq skk-large-jisyo "~/Documents/dic/SKK-JISYO.L")
-;; (setq skk-preload t)
+;;; 辞書サーバ (crvskkserv)
+(setq skk-server-host           "127.0.0.1")
+(setq skk-server-portnum        1178)
+(setq skk-server-jisyo-coding-system 'euc-jp)
 
+;;; ローカル ユーザー辞書
+(setq skk-jisyo      "~/.skk-jisyo")
+(setq skk-jisyo-code 'euc-jp)
+
+;;; SKK モードを切り替えるキー
 (global-set-key "\C-x\C-j" 'skk-mode)
 (global-set-key "\C-xj" 'skk-auto-fill-mode)
 (global-set-key "\C-xt" 'skk-tutorial)
